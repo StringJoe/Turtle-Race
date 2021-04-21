@@ -30,9 +30,9 @@ def title_screen(race_track):
     elif race_track == 2:
         wn.bgpic("race_tracks\haunted_race.gif")
     elif race_track == 3:
-        wn.bgpic("race_tracks\farm_race.gif")
+        wn.bgpic("race_tracks\\farm_race.gif")
     elif race_track == 4:
-        wn.bgpic("race_tracks\2dBeach.gif")
+        wn.bgpic("race_tracks\\2dBeach.gif")
     elif race_track == 5:
         wn.bgpic("race_tracks\castle.gif")
     else:
