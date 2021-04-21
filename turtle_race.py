@@ -26,17 +26,17 @@ def title_screen(race_track):
     wn = Screen()
     wn.title("Welcome to Turtle Race!")
     if race_track == 1:
-        wn.bgpic("green_valley.gif")
+        wn.bgpic("race_tracks\green_valley.gif")
     elif race_track == 2:
-        wn.bgpic("haunted_race.gif")
+        wn.bgpic("race_tracks\haunted_race.gif")
     elif race_track == 3:
-        wn.bgpic("farm_race.gif")
+        wn.bgpic("race_tracks\farm_race.gif")
     elif race_track == 4:
-        wn.bgpic("2dBeach.gif")
+        wn.bgpic("race_tracks\2dBeach.gif")
     elif race_track == 5:
-        wn.bgpic("castle.gif")
+        wn.bgpic("race_tracks\castle.gif")
     else:
-        wn.bgpic("lake_town.gif")
+        wn.bgpic("race_tracks\lake_town.gif")
 
 def turtles(color, y_pos):
     player = Turtle()
